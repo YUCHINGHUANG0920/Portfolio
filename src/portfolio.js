@@ -214,7 +214,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "Radical AI",
       companylogo: require("./assets/images/radicalai.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "June 2024 – August 2024",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
         "Built and integrated core features with React and Firebase, securely storing user profiles and data in Cloud Firestore",
