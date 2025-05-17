@@ -15,6 +15,7 @@ export default class DisplayLottie extends Component {
       <Suspense fallback={<Loading />}>
         <Lottie
           animationData={defaultOptions.animationData}
+          style={{ width: "90%", height: "90%" }}
           loop={defaultOptions.loop}
         />
       </Suspense>
