@@ -76,25 +76,25 @@ const Main = () => {
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
-          <>
-            <Header />
-            <Greeting />
-            <Greeting1 />
-            <Skills />
-            <StackProgress />
-            <Education />
-            <WorkExperience />
-            {/* <Projects /> */}
-            <StartupProject />
-            <Achievement />
-            <Blogs />
-            <Talks />
-            <Twitter />
-            <Podcast />
-            <Profile />
-            <Footer />
-            <ScrollToTopButton />
-          </>
+        <>
+          <Header />
+          <Greeting />
+          <Greeting1 />
+          <Skills />
+          <StackProgress />
+          <Education />
+          <WorkExperience />
+          {/* <Projects /> */}
+          <StartupProject />
+          <Achievement />
+          <Blogs />
+          <Talks />
+          <Twitter />
+          <Podcast />
+          <Profile />
+          <Footer />
+          <ScrollToTopButton />
+        </>
       </StyleProvider>
     </div>
   );

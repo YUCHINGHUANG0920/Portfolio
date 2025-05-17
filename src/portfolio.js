@@ -46,16 +46,14 @@ const socialMediaLinks = {
 
 const greeting1 = {
   title: "from Stormwater to Software",
-  subTitle: 
+  subTitle:
     "My journey began in water — building hydraulic models, analyzing rainfall data, and simulating flood scenarios to develop urban resilience strategies.\n" +
     "As a civil engineer, I relied heavily on statistics, custom code, and spatial analysis to understand complex systems and design practical solutions. That same mindset now drives my work in software and data engineering.\n" +
     "Today, I build backend systems and data pipelines, expanding from hydrologic datasets to web APIs, logs, and user behavior data — all with the goal of making data-driven decisions more scalable, reliable, and impactful.\n" +
-    "Different Domain, Same Mission: Solving Meaningful Problems with Code and Data."
-  ,
+    "Different Domain, Same Mission: Solving Meaningful Problems with Code and Data.",
   resumeLink: "", // Set to empty to hide the button
   displayGreeting1: true // Set false to hide this section, defaults to true
 };
-
 
 // Skills Section
 

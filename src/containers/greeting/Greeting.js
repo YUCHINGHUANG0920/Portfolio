@@ -15,14 +15,16 @@ export default function Greeting() {
     return null;
   }
   return (
-    <div style={{ marginTop: "80px" }}>
+    <div style={{marginTop: "80px"}}>
       <Fade bottom duration={1000} distance="40px">
         <div className="greet-main" id="greeting">
           <div className="greeting-main">
             <div className="greeting-text-div">
               <div>
                 <h1
-                  className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+                  className={
+                    isDark ? "dark-mode greeting-text" : "greeting-text"
+                  }
                 >
                   {" "}
                   {greeting.title}{" "}
@@ -55,7 +57,10 @@ export default function Greeting() {
             </div>
             <div className="greeting-image-div">
               {illustration.animated ? (
-                <DisplayLottie animationData={landingPerson} style={{width: "85%", height: "85%"}} />
+                <DisplayLottie
+                  animationData={landingPerson}
+                  style={{width: "85%", height: "85%"}}
+                />
               ) : (
                 <img
                   alt="man sitting on table"
