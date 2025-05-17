@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Engineer turned Backend Developer, passionate about turning data into action. Experienced in building web applications using Python, JavaScript, React.js, and other frameworks."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -54,10 +53,10 @@ const skillsSection = {
     emoji(
       " * Develop scalable backend systems and RESTful APIs for modern web applications"
     ),
-    emoji(" * Build  ETL pipelines and optimize SQL databases for analytics and operations"),
     emoji(
-      " * Integrated third party services such as AWS / Azure / Firebase "
-    )
+      " * Build  ETL pipelines and optimize SQL databases for analytics and operations"
+    ),
+    emoji(" * Integrated third party services such as AWS / Azure / Firebase ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -107,13 +106,12 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
+    }
     // {
     //   skillName: "sass",
     //   fontAwesomeClassname: "fab fa-sass"
     // },
-    
-    
+
     // {
     //   skillName: "swift",
     //   fontAwesomeClassname: "fab fa-swift"
@@ -122,7 +120,6 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "npm",
     //   fontAwesomeClassname: "fab fa-npm"
     // },
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -148,7 +145,9 @@ const educationInfo = {
       subHeader: "Master of Science in Civil Engineering",
       duration: "September 2016 - June 2018",
       desc: "Ranked top 10% of the program. Published master’s thesis ''Relationship between Delta Progradation and Sediment Supply Distribution,'' applying programming for statistical and numerical analysis.",
-      descBullets: ["Courses: Engineering Mathematics (IV), Advanced Hydrologic Analysis"]
+      descBullets: [
+        "Courses: Engineering Mathematics (IV), Advanced Hydrologic Analysis"
+      ]
     },
     {
       schoolName: "National Cheng Kung University",
@@ -156,7 +155,9 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Hydraulic and Ocean Engineering",
       duration: "September 2012 - June 2016",
       desc: "Ranked top 10% in the program. Was the Activities and Finance Officer at The Student Association.",
-      descBullets: ["Courses: Calculus (Ⅰ)(Ⅱ), Engineering Mathematics (Ⅰ)(Ⅱ)(III), Engineering Statistics, Computer Programming"]
+      descBullets: [
+        "Courses: Calculus (Ⅰ)(Ⅱ), Engineering Mathematics (Ⅰ)(Ⅱ)(III), Engineering Statistics, Computer Programming"
+      ]
     }
   ]
 };
@@ -240,7 +241,8 @@ const bigProjects = {
     {
       image: require("./assets/images/openai.png"),
       projectName: "Learning Assistant Application",
-      projectDesc: "A full-stack platform to recommend GitHub repositories based on user-defined difficulty and topics via GitHub and OpenAI APIs",
+      projectDesc:
+        "A full-stack platform to recommend GitHub repositories based on user-defined difficulty and topics via GitHub and OpenAI APIs",
       footerLink: [
         {
           name: "More Details",
@@ -252,7 +254,8 @@ const bigProjects = {
     {
       image: require("./assets/images/springboot.png"),
       projectName: "Employee Management System",
-      projectDesc: "A backend system for employee CRUD operations using Spring Boot, Spring Data JPA, and PostgreSQL",
+      projectDesc:
+        "A backend system for employee CRUD operations using Spring Boot, Spring Data JPA, and PostgreSQL",
       footerLink: [
         {
           name: "More Details",
@@ -263,7 +266,8 @@ const bigProjects = {
     {
       image: require("./assets/images/yelp.png"),
       projectName: "Yelp Ratings & Inspection Analysis",
-      projectDesc: "An ETL project that extracts Yelp API data into an Azure PostgreSQL warehouse and visualizes key metrics with Tableau",
+      projectDesc:
+        "An ETL project that extracts Yelp API data into an Azure PostgreSQL warehouse and visualizes key metrics with Tableau",
       footerLink: [
         {
           name: "More Details",
