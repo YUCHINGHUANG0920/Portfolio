@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
+import Greeting1 from "./greeting1/Greeting1";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
@@ -43,15 +44,42 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  // return (
+  //   <div className={isDark ? "dark-mode" : null}>
+  //     <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+  //       {isShowingSplashAnimation && splashScreen.enabled ? (
+  //         <SplashScreen />
+  //       ) : (
+  //         <>
+  //           <Header />
+  //           <Greeting />
+  //           <Greeting1 />
+  //           <Skills />
+  //           <StackProgress />
+  //           <Education />
+  //           <WorkExperience />
+  //           {/* <Projects /> */}
+  //           <StartupProject />
+  //           <Achievement />
+  //           <Blogs />
+  //           <Talks />
+  //           <Twitter />
+  //           <Podcast />
+  //           <Profile />
+  //           <Footer />
+  //           <ScrollToTopButton />
+  //         </>
+  //       )}
+  //     </StyleProvider>
+  //   </div>
+  // );
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
-        {isShowingSplashAnimation && splashScreen.enabled ? (
-          <SplashScreen />
-        ) : (
           <>
             <Header />
             <Greeting />
+            <Greeting1 />
             <Skills />
             <StackProgress />
             <Education />
@@ -67,7 +95,6 @@ const Main = () => {
             <Footer />
             <ScrollToTopButton />
           </>
-        )}
       </StyleProvider>
     </div>
   );
