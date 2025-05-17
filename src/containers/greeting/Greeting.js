@@ -59,7 +59,12 @@ export default function Greeting() {
               {illustration.animated ? (
                 <DisplayLottie
                   animationData={landingPerson}
-                  style={{width: "90%", height: "90%", position: "absolute", right: "-300px"}}
+                  style={{
+                    width: "90%",
+                    height: "90%",
+                    position: "absolute",
+                    right: "-300px"
+                  }}
                 />
               ) : (
                 <img
