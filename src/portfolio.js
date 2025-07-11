@@ -206,8 +206,8 @@ const workExperiences = {
       date: "March 2025 – Present",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Integrated TikTok Marketing APIs into RESTful backend services to automate ad operations, including OAuth authorization, access token lifecycle management, and so on",
-        "Designed internal service workflows with modular request handling, PostgreSQL-backed data retrieval and data validation logic in Python, reducing setup time by over 50%"
+        "Developed RESTful backend services using Python and PostgreSQL to automate ad campaign setup on TikTok and Amazon Ads platforms, including audience targeting and OAuth-based token management, reducing workload by over 50%",
+        "Built data pipelines to retrieve and process advertiser sales and engagement metrics, enabling the analytics team to deliver client-facing reports and strategic insights for campaign optimization"
       ]
     },
     {
