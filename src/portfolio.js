@@ -67,7 +67,9 @@ const skillsSection = {
     emoji(
       " * Build  ETL pipelines and optimize SQL/NoSQL databases for analytics and operations"
     ),
-    emoji(" * Integrate third-party services and cloud platforms such as AWS / GCP / Firebase ")
+    emoji(
+      " * Integrate third-party services and cloud platforms such as AWS / GCP / Firebase "
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
