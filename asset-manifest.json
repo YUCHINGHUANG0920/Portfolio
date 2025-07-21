@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.717efc4d.css",
-    "main.js": "/Portfolio/static/js/main.f1a156bb.js",
+    "main.css": "/Portfolio/static/css/main.a14d83ce.css",
+    "main.js": "/Portfolio/static/js/main.f2ddf666.js",
     "static/css/64.bba8fa55.chunk.css": "/Portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.c4b61cdb.chunk.js": "/Portfolio/static/js/769.c4b61cdb.chunk.js",
     "static/media/ntu.png": "/Portfolio/static/media/ntu.94db5ab162aee6eba637.png",
     "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/RecipeScreenshot.png": "/Portfolio/static/media/RecipeScreenshot.010e5a3443e76170187d.png",
     "static/media/ncku.png": "/Portfolio/static/media/ncku.59ed520369952b5f95dc.png",
     "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/yelp.png": "/Portfolio/static/media/yelp.74b5501f6d3103b3a7d9.png",
@@ -17,7 +18,6 @@
     "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/Portfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/openai.png": "/Portfolio/static/media/openai.2f941e544f34d075691f.png",
-    "static/media/springboot.png": "/Portfolio/static/media/springboot.6d303e66fd0638f2e28f.png",
     "static/media/liteon.png": "/Portfolio/static/media/liteon.4344513943ba740a6b4e.png",
     "static/media/codeInLogo.webp": "/Portfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
@@ -25,15 +25,15 @@
     "static/media/pwaLogo.webp": "/Portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/Portfolio/index.html",
     "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.717efc4d.css.map": "/Portfolio/static/css/main.717efc4d.css.map",
-    "main.f1a156bb.js.map": "/Portfolio/static/js/main.f1a156bb.js.map",
+    "main.a14d83ce.css.map": "/Portfolio/static/css/main.a14d83ce.css.map",
+    "main.f2ddf666.js.map": "/Portfolio/static/js/main.f2ddf666.js.map",
     "64.bba8fa55.chunk.css.map": "/Portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.c4b61cdb.chunk.js.map": "/Portfolio/static/js/769.c4b61cdb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.717efc4d.css",
-    "static/js/main.f1a156bb.js"
+    "static/css/main.a14d83ce.css",
+    "static/js/main.f2ddf666.js"
   ]
 }
