@@ -23,7 +23,7 @@ const greeting = {
   username: "Yu-Ching",
   title: "Hi, I'm Yu-Ching",
   subTitle: emoji(
-    "Engineer turned Backend Developer, passionate about turning data into action. Experienced in building web applications using Python, JavaScript, React.js, and other frameworks."
+    "Engineer turned Software Developer, passionate about turning data into action. Experienced in building web applications using Python, JavaScript, React.js, and other frameworks."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -62,12 +62,12 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WITH A BACKEND & DATA ENGINEERING FOCUS",
   skills: [
     emoji(
-      " * Develop scalable backend systems and RESTful APIs for modern web applications"
+      " * Develop scalable full-stack applications with RESTful APIs for web and mobile platforms"
     ),
     emoji(
-      " * Build  ETL pipelines and optimize SQL databases for analytics and operations"
+      " * Build  ETL pipelines and optimize SQL/NoSQL databases for analytics and operations"
     ),
-    emoji(" * Integrated third party services such as AWS / Azure / Firebase ")
+    emoji(" * Integrate third-party services and cloud platforms such as AWS / GCP / Firebase ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -200,7 +200,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Backend Developer",
+      role: "Software Developer",
       company: "Mamon11",
       companylogo: require("./assets/images/mamon11.png"),
       date: "March 2025 – Present",
@@ -263,14 +263,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/springboot.png"),
-      projectName: "Employee Management System",
+      image: require("./assets/images/RecipeScreenshot.png"),
+      projectName: "Recipe Application",
       projectDesc:
-        "A backend system for employee CRUD operations using Spring Boot, Spring Data JPA, and PostgreSQL",
+        "A full-stack cross-platform mobile app built with React Native + Expo and EXpress that lets users discover and favorite recipes",
       footerLink: [
         {
           name: "More Details",
-          url: "https://github.com/YUCHINGHUANG0920/Employee-Management-System"
+          url: "https://github.com/YUCHINGHUANG0920/Recipe-Application"
         }
       ]
     },
