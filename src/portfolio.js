@@ -23,7 +23,7 @@ const greeting = {
   username: "Yu-Ching",
   title: "Hi, I'm Yu-Ching",
   subTitle: emoji(
-    "Engineer turned Software Developer, passionate about turning data into action. Experienced in building web applications using Python, JavaScript, React.js, and other frameworks."
+    "Engineer turned Software Developer, passionate about turning data into action. Experienced in building web applications using Python, JavaScript, and React, as well as developing ETL pipelines, managing databases, performing data analysis by PySpark, and using cloud platforms such as AWS and GCP."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -103,6 +103,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "gcp",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
       skillName: "firebase",

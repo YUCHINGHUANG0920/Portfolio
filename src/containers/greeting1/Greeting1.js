@@ -2,11 +2,11 @@ import React, {useContext} from "react";
 import {Fade, Slide} from "react-reveal";
 // import emoji from "react-easy-emoji";
 import "./Greeting1.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import {illustration, greeting1} from "../../portfolio";
+// import landingPerson from "../../assets/lottie/landingPerson";
+// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// import SocialMedia from "../../components/socialMedia/SocialMedia";
+// import Button from "../../components/button/Button";
+import {greeting1} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting1() {
@@ -20,6 +20,10 @@ export default function Greeting1() {
         <div className="greeting1-main">
           <div className="greeting1-text-div">
             <div>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <h1
                 className={
                   isDark ? "dark-mode greeting1-text" : "greeting1-text"
